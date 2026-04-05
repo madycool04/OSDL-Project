@@ -1,4 +1,4 @@
-# 🏨 Grand Hotel Management System
+# 🏨 Lime Tree Resort Management System
 
 A full-featured JavaFX desktop application for hotel management, built with Maven.
 
@@ -69,44 +69,6 @@ HotelManagementSystem/
                 └── styles.css                     ← Dark theme CSS
 ```
 
----
-
-## Prerequisites
-
-- **Java 17+** (OpenJDK or Oracle JDK)
-- **Maven 3.8+**
-- Internet connection (for first Maven dependency download)
-
----
-
-## How to Run
-
-### Step 1 – Clone / Extract the project
-
-```bash
-cd HotelManagementSystem
-```
-
-### Step 2 – Build with Maven
-
-```bash
-mvn clean install
-```
-
-### Step 3 – Run the application
-
-```bash
-mvn javafx:run
-```
-
-Or run the fat JAR:
-
-```bash
-java -jar target/HotelManagementSystem-1.0.0.jar
-```
-
----
-
 ## Data Storage
 
 All data is stored permanently in:
@@ -151,15 +113,3 @@ Bills are saved as `.txt` files in `~/.hotelms/`.
 | Suite | ₹ 7,000 – 7,500 |
 
 Prices can be customized per room.
-
----
-
-## Screenshots Overview
-
-- **Sidebar Navigation** – Icon + text menu, active state highlighted in gold
-- **Dashboard** – 8 stat cards, occupancy bar chart, recent bookings table
-- **Rooms** – Searchable/filterable table with status badges (Available/Occupied/Maintenance)
-- **Booking Form** – Two-column layout with live bill preview
-- **Checkout** – SplitPane with booking list + bill preview/generation
-- **Guests** – SplitPane: guest registry + booking history
-- **Billing** – Summary cards + filterable billing table + bill viewer

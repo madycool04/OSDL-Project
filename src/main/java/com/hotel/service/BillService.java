@@ -41,7 +41,7 @@ public class BillService {
         String dashes = "-".repeat(54);
 
         pw.println(line);
-        pw.println("           JAT HOTEL MANAGEMENT SYSTEM          ");
+        pw.println("           LIME TREE RESORT MANAGEMENT SYSTEM          ");
         pw.println("         123 Dabra Chowk, Hisar - 125001           ");
         pw.println("         Tel: +91-80-1234-5678  GST: 29ABCDE1234F1Z5");
         pw.println(line);
@@ -91,7 +91,7 @@ public class BillService {
         pw.printf("Payment Status: %-36s%n", booking.isPaid() ? "PAID" : "UNPAID");
         pw.println(line);
         pw.println();
-        pw.println("  Thank you for choosing Jat Hotel!");
+        pw.println("  Thank you for choosing Lime Tree Resort!");
         pw.println("  We look forward to your next visit.");
         pw.println();
         pw.println("     **** THIS IS A COMPUTER GENERATED BILL ****");

@@ -45,7 +45,7 @@ public class MainView {
             getClass().getResource("/com/hotel/view/styles.css").toExternalForm()
         );
 
-        stage.setTitle("🏨 JAT Hotel Management System");
+        stage.setTitle("🏨  Lime Tree Resort Management System");
         stage.setScene(scene);
         stage.setMinWidth(1100);
         stage.setMinHeight(700);
@@ -72,7 +72,7 @@ public class MainView {
         clock.setCycleCount(javafx.animation.Animation.INDEFINITE);
         clock.play();
 
-        Label version = new Label("v1.0  |  JAT Hotel");
+        Label version = new Label("v1.0  |  LIME TREE Resort");
         version.getStyleClass().add("text-muted");
 
         header.getChildren().addAll(time, new Label(" | ").getClass().cast(makeLabel("  |  ", "text-muted")), version);
@@ -100,7 +100,7 @@ public class MainView {
         header.setAlignment(Pos.CENTER);
         Label icon = new Label("🏨");
         icon.setStyle("-fx-font-size: 28px;");
-        Label title = new Label("JAT HOTEL");
+        Label title = new Label("LIME TREE RESORT");
         title.getStyleClass().add("sidebar-title");
         Label sub = new Label("Management System");
         sub.getStyleClass().add("sidebar-subtitle");
